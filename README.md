@@ -44,6 +44,9 @@ listing = pd.DataFrame([{
     "ram_size_gb": 8,
     "storage_size_gb": 256,
     "clean_display_inches": 14.0,
+    "cpu_tier": 3,
+    "gpu_tier": 1,
+    "is_discrete": 0,
     "state": "Gujarat",
     "city": "Ahmedabad",
     "price": 29500.0
@@ -72,7 +75,7 @@ Our pipeline applies Nelder-Mead simplex optimization against an asymmetric pinb
 
 ## Verified Data Cleaning Funnel
 
-Raw scraped C2C listings undergo strict domain cleaning before neural training (empirical trace):
+Raw scraped C2C listings undergo strict domain cleaning before neural training (empirical telemetry trace):
 
 | Stage | Records | Retained | Primary Action |
 | :--- | :---: | :---: | :--- |
