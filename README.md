@@ -72,7 +72,7 @@ Our pipeline applies Nelder-Mead simplex optimization against an asymmetric pinb
 
 ## Verified Data Cleaning Funnel
 
-Raw scraped C2C listings undergo strict domain cleaning before neural training (`o_p.txt` empirical trace):
+Raw scraped C2C listings undergo strict domain cleaning before neural training (empirical trace):
 
 | Stage | Records | Retained | Primary Action |
 | :--- | :---: | :---: | :--- |
