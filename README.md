@@ -53,10 +53,8 @@ listing = pd.DataFrame([{
 }])
 
 result_df = predict(input_df=listing)
-# Real Telemetry Output (Row 0 benchmark):
-# Fair Market Value (FMV): ₹39,785.11
-# Safe Acquisition Ceiling (FMV × 0.7569): ₹30,113.35
-# Asking Price: ₹29,500.00 -> Net Arbitrage Spread: +₹10,285.11 (BUY SIGNAL)
+
+### https://www.kaggle.com/code/pagarani/indian-laptop-valuation-arbitrage-inference-demo
 ```
 
 ## Marketplace Unit Economics
