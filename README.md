@@ -4,7 +4,7 @@ Automated valuation and arbitrage detection for second-hand INR laptops. Decoupl
 
 - **Risk Reduction**: Achieves a **57.54% reduction in financial downside risk** via asymmetric pinball loss optimization ($10\times$ overvaluation penalty).
 - **Safety Cushion**: Locks an acquisition ceiling of `FMV × 0.7569` (a built-in **24.31% gross margin cushion**).
-- **Out-of-Sample Accuracy**: Symmetric $R^2 = 0.7695$ (log-space $R^2 = 0.8231$, MAE = ₹7,023.77) across **1,939 blind holdout records** ($25\%$ out-of-sample test split of the 7,801 cleaned dataset).
+- **Out-of-Sample Accuracy**: Symmetric $R^2 = 0.7695$ (log-space $R^2 = 0.8231$, MAE = ₹7,023.77) across **1,939 blind holdout records** ($25\%$ out-of-sample test split of the ~7k cleaned dataset).
 
 ```mermaid
 graph LR
